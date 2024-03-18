@@ -1,0 +1,10 @@
+Access Modifiers
+
+
+			within class	within package	outside package by subclass		outside package
+
+private		Y			N				N							N
+default		Y			Y				N							N
+protected	Y			Y				Y							N
+public		Y			Y				Y							Y
+
