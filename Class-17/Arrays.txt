@@ -2,3 +2,8 @@
 
 Array : Stores homogeneous elements i.e. of same data type.
 *Indexing starts from 0 to length-1
+
+*Array is an object.
+syntax in Java:
+int[] arr = new int[size] ;
+
