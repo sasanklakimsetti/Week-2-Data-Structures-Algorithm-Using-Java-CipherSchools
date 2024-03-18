@@ -1,0 +1,7 @@
+Encapsulation
+
+*Wrapping the data(variables) and code acting on the data(methods) together as a single unit.
+
+*To achieve encapsulation in java-
+	Declare the variables as private.
+	Provide public methods(Setter and Getter) methods to modify and view the variables values.
