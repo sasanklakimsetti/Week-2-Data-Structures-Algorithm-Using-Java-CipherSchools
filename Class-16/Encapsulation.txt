@@ -5,3 +5,10 @@ Encapsulation
 *To achieve encapsulation in java-
 	Declare the variables as private.
 	Provide public methods(Setter and Getter) methods to modify and view the variables values.
+
+Benefits:
+*A class can have total control over what is stored in its fields. Suppose we want to set the value of variable should be greater than 100 only. we can write the logic inside the setter method.
+*fields of class can be made read-only and write-only.
+*Flexible : The programmer can change the one part of the code without affecting other parts.
+*Increased Security: It is a way to achieve data hiding in Java because other class will not be able to access the data through the private data members.
+*The encapsulated class is easy to test. So it is best for unit testing.
