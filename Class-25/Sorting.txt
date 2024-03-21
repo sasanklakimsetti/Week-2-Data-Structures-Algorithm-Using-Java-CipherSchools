@@ -6,7 +6,7 @@ ex: 4 2 9 10 7
 
 sorted: 2 4 7 9 10
 
-approach 1 (bubble sort): pick smallest number and keep it at front.
+approach 1 : pick smallest number and keep it at front.
 
 1)pick the min element
 2)keep in front
@@ -19,3 +19,5 @@ step-4: 2 4 9 10 9
 step-5: 2 4 7 9 10 (sorted)
 
 time complexity: O(N-1)
+
+**this approach is called Selection Sort
