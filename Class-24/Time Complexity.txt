@@ -1,0 +1,90 @@
+Time Complexity
+
+1.Atomic/Basic Statements : they take 1 unit of time.
+
+ex: adding or subtracting, checking, assignment operation
+
+Q. x=x+5 
+ans. x+5 takes 1 unit of time
+	assignment of x+5 to x takes 1 unit of time
+
+total: 2 units
+
+
+For-loop : 
+
+for(int i=0;i<5;i++){
+	System.out.println(i);
+}
+
+no.of iterations = 5
+
+1st iteration : 
+	i=0
+	i<5
+	s.o.p
+	i++ : 2 units
+	total =5 units
+
+2nd:
+	i=1
+	i<5
+	s.o.p
+	i++  :  2 units
+	total=5 units
+3rd:
+	i=2
+	i<5
+	s.o.p
+	i++ :  2 units
+	total=5 units
+
+4th:
+	i=3
+	i<5
+	s.o.p
+	i++ :  2 units
+	total=5 units
+
+5th:
+	i=4
+	i<5
+	s.o.p
+	i++ :  2 units
+	total=5 units
+
+total : 25 units
+
+*we can't do this everytime because if there is large input then the calculation will be different for every iteration
+
+*So there are some notations which helps to calculate time complexity
+
+1. Mostly used : Big-Oh notation
+
+*It talks about worst case time complexity of the algo
+
+from the above example, the time equation is defined as 4n+2
+
+if the input is large, then the constants wouldn't matter
+
+so the time complexity of the above example is O(n)
+
+O(n) means a straight line in the graph which gives the upper bound of the algo.
+
+2. Omega Notation : 
+*gives the best case time complexity of the algo
+*gives the lower bound of the algo
+*It gives the most efficient time complexity which is not useful in calculating time complexities.
+
+3.Theta Notation:
+*gives the average time complexity
+*between Omega and Big-Oh
+
+
+Examples:
+Nested Loop : O(n^2)
+
+i=0;i<m;i++
+	j=0;j<6;j++
+
+t.c: O(m)   (j has constant iterations)
