@@ -1,0 +1,5 @@
+Scanner class
+
+*To take inputs from the user
+
+import java.util.Scanner;
